@@ -5,3 +5,4 @@
 set -e
 echo -e "\a"
 paplay /usr/share/sounds/gnome/default/alerts/bark.ogg
+notify-send "done"
