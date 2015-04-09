@@ -1,0 +1,8 @@
+---
+- hosts: 192.168.122.251
+  sudo: yes
+  tasks:
+  - apt: name=vim
+  - apt: name=tmux
+  - copy: src=vimrc dest=/home/merlin/.vimrc
+  - copy: src=tmux.conf dest=/home/merlin/.tmux.conf
