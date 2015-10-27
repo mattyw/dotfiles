@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo ./install.sh
+HOME=/home/ubuntu ./install.sh
