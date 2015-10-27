@@ -1,2 +1,2 @@
 #!/bin/sh
-./install.sh
+sudo ./install.sh
