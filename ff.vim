@@ -1,4 +1,4 @@
-" A very experimental attempt at a file finer, really just for personal use
+" A very experimental attempt at a file finder, really just for personal use
 " FindFile "foo.vim"
 
 function! s:FindFile(name)
