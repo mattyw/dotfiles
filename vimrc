@@ -56,10 +56,12 @@ au Bufenter *.py map <F5> :!python3 %<CR>
 au Bufenter *.c map <F5> :!gcc %<CR>
 au Bufenter *.exs map <F5> :!time elixir %<CR>
 au Bufenter *.clj syn keyword lispFunc defrel fact
+
 set expandtab
 set tabstop=4
 set shiftwidth=4
 set smarttab
+
 set smartindent
 set nowrap
 set path +=./**,**
@@ -119,3 +121,5 @@ noremap <Leader>e :Eval<CR>
 noremap <LocalLeader>e :Eval<CR>
 noremap <Leader>p :CtrlP<CR>
 noremap <Leader>s [sz=
+"inoremap jj <Esc>
+"inoremap <Esc> <nop>
